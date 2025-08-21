@@ -21,7 +21,7 @@ export default function Resume() {
       </div>
 
       <ZoomInOnScroll delay={0}>
-        <div className="min-h-screen py-5">
+        <div className="min-h-screen py-4">
           <ExperienceList 
               title="Professional Experience" 
               experiences={experienceData} 
