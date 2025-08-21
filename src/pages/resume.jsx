@@ -13,7 +13,7 @@ export default function Resume() {
       <div className="flex justify-center pt-8">
         <ZoomInOnScroll delay={0}>
           <h2 id="resume" className="text-3xl font-medium text-center scroll-mt-20 mb-4">
-            <Twinkle>⋆° 𖥔₊</Twinkle>
+            <Twinkle>⋆｡˚✶</Twinkle>
             <span className="mx-4">resume</span>
             <Twinkle>⋆. •⺌</Twinkle>
           </h2>
