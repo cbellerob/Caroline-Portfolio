@@ -1,12 +1,44 @@
-# React + Vite
+# caroline's portfolio
+a simple, responsive one-page portfolio dedicated to my background in data science and data engineering.  
+<br>
+this is the first version of my portfolio! i look forward to growing this site by showcasing
+my projects, sharing blogs, and other features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech Stack
+- React - Frontend
+- Vite - Build tool
+- Tailwind CSS - Styling
+- DaisyUI - UI components
+- Framer Motion - Animations
 
-Currently, two official plugins are available:
+### Features
+- Modern UI using [DaisyUI](https://daisyui.com/) components
+- Smooth scroll animations
+- Responsive design
+- Interactive image carousel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project Structure
+```
+src/
+├── animations/    # reusable animation components
+├── data/          # data separation
+├── layout/        # layout/components
+├── pages/         # pages
+└── App.jsx        # main application
+```
 
-## Expanding the ESLint configuration
+### Quick Start
+```bash
+# clone
+git clone https://github.com/cbellerob/Caroline-Portfolio.git
+cd Caroline-Portfolio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# install dependencies (https://daisyui.com/docs/install/vite/)
+npm install
+
+# start development server
+npm run dev
+
+# build for production
+npm run build
+```
