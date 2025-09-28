@@ -2,7 +2,7 @@
 a simple, responsive one-page portfolio dedicated to my background in data science and data engineering.  
 <br>
 this is the first version of my portfolio! i look forward to growing this site by showcasing
-my projects, sharing blogs, and other features.
+my projects, sharing blogs, and implementing other features.
 
 ### Tech Stack
 - React - Frontend
